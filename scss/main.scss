@@ -1,0 +1,21 @@
+@import 'var/_variables.scss';
+
+.wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    color: $color;
+    justify-content: center;
+    height: 100vh;
+    background: $bg-gradient;
+}
+
+.card {
+    &:hover {
+        box-shadow: 0 0 10px -5px #000;
+    }
+}
+
+.pricing-header {
+    max-width: 700px;
+}
